@@ -12,7 +12,7 @@ The early Enigma machine consisted of a keyboard, a lampboard and three rotors w
 A-B-C -> A-B-D ... A-B-Z -> A-C-A
 ~~~
 
-![Parts of the Enigma machine](img/enigma_a.jpg)
+![Parts of the Enigma machine](../img/enigma_a.jpg)
 
 When the German military saw the potential of the machine, they used various methods to insure better security. First they increased the number of rotors to four `4 * 3 * 2 = 24 permutations`. They then added a plugboard, which paired letters together with 10 wires `26! / (6! * 10! * 2^10) = 150'738'274'937'250 permutations`.
 
