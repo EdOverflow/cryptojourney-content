@@ -2,7 +2,7 @@
 
 <span class="ipa center">/ɪˈnɪgmə/</span>
 
-![](img/enigma-k.jpg)
+![](../img/enigma-k.jpg)
 
 Enigma machines were a series of rotor cipher machines, originally used by companies, banks and later by the German military during WWII to encrypt messages. The main difference to classical cryptographic methods, was the fact that the cipher was polyalphabetic. The key changed for each individual letter you enciphered. So for example, you might press a `J` and end up with an `E` the first time and a `B` the second time.
 
@@ -20,19 +20,19 @@ When the German military saw the potential of the machine, they used various met
 Total combinations: 1054560 * 150,738,274,937,250 = 158,962,555,217,826,360,000 ≈ 1.59 * 10^20
 ~~~
 
-![Enigma plugboard](img/plugboard.jpg)
+![Enigma plugboard](../img/plugboard.jpg)
 
 So now that we know the different parts of an Enigma machine, lets have a look at how to set up the machine to encrypt and decrypt a message:
 
 **The rotor order:** Numbered from one to three in Roman numerals (I-III), each rotor was wired up differently and when placed on the rack in different order, they gave a different output.
 
-![Eingma rotor](img/enigma_rotor.jpg)
+![Eingma rotor](../img/enigma_rotor.jpg)
 
 **The ring setting:** The numbers displayed through little holes next to the rotors, indicated the ring setting. Each rotor was assigned a ring setting.
 
 **The ground setting:** The key.
 
-![Enigma ground setting](img/enigma_b.jpg)
+![Enigma ground setting](../img/enigma_b.jpg)
 
 **Plugging:** Two letters could be connected together with a wire.
 
@@ -66,6 +66,6 @@ The following steps were taken to ensure that both ends could communicate:
 
 2. Everyday these settings changed and so German operators were handed out keylists of all the different settings for the month. If the enemy got hold of a list, which they did sometimes, the list became useless once the month was over. Obviously, if there was any suspicion of a missing keylist, the Germans would have generated a new one. Keylists were either distributed in printed form or over radio as Morse code. The German Navy used ink that disappeared in water, so that when a ship sank the keylist was destroyed.
 
-![Enigma keylist](img/enigma_keylist.jpg)
+![Enigma keylist](../img/enigma_keylist.jpg)
 
 Now if both ends have followed all these steps accordingly, the sender could encrypt `HELLO` with his machine, which might output something like `UZCFS`. The receiver can then type `UZCFS` into his machine and it should output `HELLO`.
