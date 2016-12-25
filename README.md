@@ -26,25 +26,79 @@ Website: https://cryptojourney.com/
 
 This chapter will provide you with a basic foundation in cryptography and some terminology that you will need for your journey.
 
+1.1 What Is Cryptography?
+
+1.2 Terminology
+
+1.3 Different Ciphers & Algorithms
+
 **2. Classical Cryptography**
 
 Learn about the earliest methods used to encrypt messages.
+
+2.1 Egypt
+
+2.2 Ancient India
+
+2.3 Hebrews
+
+2.4 Ancient Greece & Sparta
+
+2.5 Rome
 
 **3. WWI**
 
 Discover cryptographic principles used during World War I.
 
+3.1 The Importance Of Cryptography During WW1
+
+3.2 Playfair Cipher
+
+3.3 The Zimmermann Telegram
+
 **4. WWII**
 
 In this chapter you will learn about the various cipher machines used during World War II.
+
+4.1 The Importance Of Cryptography During WW2
+
+4.2 Enigma
+
+4.3 The Polish Bomba
+
+4.4 The British Bombe
+
+4.5 Lorenz Cipher
+
+4.6 Bletchley Park
+
+4.7 Purple
 
 **5. Cold War**
 
 Cryptography during the Cold War.
 
+5.1 Why We Know So Little About Cold War Cryptography?
+
+5.2 Fialka
+
 **6. Modern**
 
 Learn about the ways we keep our data secure today.
+
+6.1 Timeline
+
+6.2 The Key
+
+6.3 Simple XOR
+
+6.4 Random & Pseudo-random
+
+6.5 Prime Numbers
+
+6.6 One-Time Pads
+
+6.7 Cryptographic Protocols
 
 # Contributing
 
