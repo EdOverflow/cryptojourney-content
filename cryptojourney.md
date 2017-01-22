@@ -71,7 +71,7 @@ After analysing the text we get:
 | Y      | 13.33%     | 2                     |   
 | G      | 20.0%      | 3                     |  
 
-Now we compare the most common letters from the cipher text with the most common English letters: etaoin shrdlu
+Now we compare the most common letters from the cipher text with the most common English letters: `etaoin shrdlu`
 
 ~~~~
 If cipher text `G` is plaintext `E`, then the shift is `2`.
