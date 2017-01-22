@@ -256,6 +256,10 @@ Letter A: x x • • •
 Cipher F: x • x x •
 ~~~
 
+#### The Codebreakers
+
+The codebreakers at Bletchley Park who managed to crack Lorenz cipher messages referred to Lorenz machine traffic as Tunny, the old English word for tuna. When the first messages were intercepted, there were clear signs that this could not come from an Enigma machine.
+
 ---
 
 ### Bletchley Park
