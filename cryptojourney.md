@@ -139,6 +139,12 @@ On 17 January 1917, the team of British codebreakers from Room 40 at Admiralty r
 
 # 4. WWII
 
+### The Importance of Cryptography during World War II
+
+Cryptography played a much bigger role in World War II as opposed to World War I. In World War II cryptography was more sophisticated and the ciphers and machines they used were far more complex. The practice of cryptanalysis was also much more advanced and every country tried to improve their ability to encrypt/decrypt messages.
+
+The most important event was the decryption of the German Enigma machine by the cryptographers at Bletchley Park. With the help of Ultra, the decrypted Enigma messages, the allies were able to read Germany's military intelligence throughout the war.
+
 ### The Enigma Machine
 
 ![](img/enigma-k.jpg)
