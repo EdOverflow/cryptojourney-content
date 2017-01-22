@@ -124,6 +124,12 @@ Now when you read the table from top to bottom you get: `Bonsoir Eliott :)`
 
 # 3. WWI
 
+### The Importance of Cryptography during World War I
+
+Encryption was vital during WWI, because nations did not want their enemies to be able to read their military secrets. Plans and military operations had to be kept under strict protection. Messages that were intercepted and decrypted by enemies changed the war drastically. The most notable case was the Zimmerman telegram, decrypted by the British Naval intelligence that helped bring the United States into the war.
+
+WWI cryptography was not very sophisticated, cryptographers would mostly use substitution ciphers or mathematical encryption for important messages. The ciphers they used had to be explained in codebooks that were distributed to military personnel. This was a major weakness, since the books could be stolen by spies or enemy forces.
+
 # 4. WWII
 
 ### The Enigma Machine
