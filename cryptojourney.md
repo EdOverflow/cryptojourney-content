@@ -130,6 +130,12 @@ Encryption was vital during WWI, because nations did not want their enemies to b
 
 WWI cryptography was not very sophisticated, cryptographers would mostly use substitution ciphers or mathematical encryption for important messages. The ciphers they used had to be explained in codebooks that were distributed to military personnel. This was a major weakness, since the books could be stolen by spies or enemy forces.
 
+### The Zimmermann Telegram
+
+The Zimmermann Telegram was a note from Germany requesting Mexican allegiance. It was wirelessly intercepted and then decrypted by the British. The contents of the letter gave the USA another reason to join World War I.
+
+On 17 January 1917, the team of British codebreakers from Room 40 at Admiralty received the intercepted letter. They soon realized the number 13042 was a variation of 13040, the title number of a German codebook. The codebreakers managed to recreate the codebook with all sorts of intercepted messages they had managed to get hold of. Using the book the signature 97556 decoded to Zimmermann, revealing that Arthur Zimmermann had sent the note to the German ambassador in Mexico.
+
 # 4. WWII
 
 ### The Enigma Machine
