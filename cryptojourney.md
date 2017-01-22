@@ -76,6 +76,7 @@ Now we compare the most common letters from the cipher text with the most common
 ~~~~
 If cipher text `G` is plaintext `E`, then the shift is `2`.
 Result: pwwtzeufdelepns
+
 Else if cipher text `G` is plaintext `T`, then the shift is `13`.
 Result: elliotjustatech
 ~~~~
@@ -164,7 +165,7 @@ So now that we know the different parts of an Enigma machine, lets have a look a
 
 **The rotor order:** Numbered from one to three in Roman numerals (I-III), each rotor was wired up differently and when placed on the rack in different order, they gave a different output.
 
-![Eingma rotor](img/enigma_rotor.jpg)
+![Enigma rotor](img/enigma_rotor.jpg)
 
 **The ring setting:** The numbers displayed through little holes next to the rotors, indicated the ring setting. Each rotor was assigned a ring setting.
 
@@ -203,6 +204,12 @@ The following steps were taken to ensure that both ends could communicate:
 ![Enigma keylist](img/enigma_keylist.jpg)
 
 Now if both ends have followed all these steps accordingly, the sender could encrypt `HELLO` with his machine, which might output something like `UZCFS`. The receiver can then type `UZCFS` into his machine and it should output `HELLO`.
+
+---
+
+### The Polish Bomba
+
+The Polish mathematician and cryptologist Marian Rejewski was the first one to design a machine that was able to decrypt messages encrypted with an Enigma machine. Because the Germans used to write the combination key at the start of every transmission, Marian Rejewski was able to recreate the internal wirings of the Enigma machine. In order to speed up the process of decrypting the key, he created the “Bomba Kryptologiczna” in October 1938. Six Bombas were built in Warsaw before September 1939. It took a Bomba about two hours to find out the daily keys. The Polish cryptographers were already reading Enigma encrypted messages by 1939 but they did not tell their British or French allies. Then by the end of 1938 the Germans added two more rotors, so that an operator had to choose three out of five rotors to put in the Enigma machine. The Polish cryptologists were not able to decrypt the messages anymore. In 1939 with the invasion of Poland, the Polish cryptographers decided to share their data with the French and the British.
 
 ---
 
