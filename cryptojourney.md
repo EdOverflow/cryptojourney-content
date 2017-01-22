@@ -15,11 +15,28 @@ Written by @EdOverflow & @YouPunk.
 
 # 2. Classical Cryptography
 
+### Egypt
+
+According to David Kahn's "The Codebreakers"<sup>[1]</sup>, the earliest use of cryptography is found in an Egyptian tomb belonging to Khnumhotep II. Researchers found unusual hieroglyphs carved into the walls that date back to 2000 BC. This method is known as symbol substitution and is a very important element of cryptography that is still used today. Interestingly though, Khnumotep II's intentions were not to hide the text, but rather to impress the reader.
+
+---
+
+###	Ancient India
+
+We have well documented evidence, that cryptography was prevalent in ancient India too, especially among traders, thieves and robbers. Number 44 of the 64 arts that Vatsyayana listed in his book "Vatsyayana's Kama Sutra" is Mlecchita Vikalpa: "The art of understanding writing in cipher, and the writing of words in a peculiar way."<sup>[2]</sup> Ancient Indian ciphers such as the Muladeviya, a simplified form of Kautiliya, consisted mainly of letter substitutions, which were based on phonetic relations.
+
+~~~
+Plain:  | a | kh | gh | c | t | ñ | n | r | l | y |
+Cipher: | k | g  | ṅ  | ṭ | p | ṇ | m | ṣ | s | ś |
+~~~
+
+---
+
 ### Rome
 
 One of the earliest known and simplest ciphers, the Caesar cipher, is a shift cipher, which means it encrypts by shifting all the letters in a piece of text by a certain number of places. It was named after Julius Caesar, who used it to encrypt messages sent to his generals. Caesar ciphers are very simple to create, but are also very easy to crack. The key for this cipher is a letter which represents the number of shifts in the alphabet. So for example, a key of E means "shift 4 places". The key Z can either mean "shift 25 places" or "shift one place backwards".
 
-#### 🎓 Example
+#### :mortar_board: Example
 
 The word "HELP" with the key J becomes "ROVZ".
 
@@ -30,7 +47,7 @@ KLMNOPQRSTUVWXYZABCDEFGHIJ
 
 Caesar's method is a weak encryption method, since there are only 26 possibilities. The Enigma machine used in World War II by the German military had over 158 quintillion combinations! To crack the Caesar cipher we can also use a method called frequency analysis. This is where the number of times each letter occurs is analysed. The frequency of the most commonly occurring letters in the cipher text correspond to the most common in the plaintext (etaoin shrdlu).
 
-#### 🎓 Example
+#### :mortar_board: Example
 
 The following cipher text is given:
 
@@ -71,6 +88,39 @@ It is believed that Julius Caesar used a key of E when encrypting messages. Try 
   <summary>**M leh vexliv fi jmvwx mr e zmppeki xler wigsrh ex Vsqi.**</summary>
 	**Solution:** I had rather be first in a village than second at Rome.
 </details>
+
+---
+
+### The Hebrews
+
+The Hebrews used a simple monoalphabetic substitution cipher known as "atbash". The alphabet is simply reversed as follows:
+
+~~~
+Plain:  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Cipher: ZYXWVUTSRQPONMLKJIHGFEDCBA
+~~~
+
+---
+
+### Ancient Greece & Sparta
+
+The Ancient Greeks and the Spartans used a scytale to transport their messages safely. A scytale is a rod with a strip wrapped around it. The message is written on the strip and in order for the receiver to decipher the secret message, they must wrap the strip around a rod of same diameter as the one used to encrypt the message.
+
+#### :mortar_board: Example
+
+Hermes comes running up to you and hands you his belt. You realise that there are letters engraved into the belt. You look back up and Hermes has already vanished. When placing the belt flat on the table, the following can be read: `BSRITOOEO:NILT)`
+ 
+You have not got a stick lying around, so you start by drawing tables. There are 15 letters in total, which means, in order to fill all fields, we must draw a `3x5` table.
+
+~~~
+| B | S | R | I | T |
+---------------------
+| O | O | E | O | : |
+---------------------
+| N | I | L | T | ) |
+~~~
+
+Now when you read the table from top to bottom you get: `Bonsoir Eliott :)`
 
 # 3. WWI
 
@@ -114,7 +164,7 @@ So now that we know the different parts of an Enigma machine, lets have a look a
 
 **The reflector wheel:** The circuit passed through the rotors and was then reflected back through the three rotors.
 
-#### 🎓 Example
+#### :mortar_board: Example
 
 You have got hold of an Enigma machine and a stolen list for this month. The list says the following:
 
