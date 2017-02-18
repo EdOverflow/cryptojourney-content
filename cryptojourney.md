@@ -24,7 +24,7 @@ Cryptography began thousands of years ago as a way of hiding, encrypting and pro
 Encryption is a process converts data into cipher text so that it can be safely stored or sent and then decrypted. Decryption turns the hidden and protected cipher text into readable plaintext. For instance, you can encrypt a message and then send it to a friend, who can decrypt the message and then read the contents. If an eavesdropper were to get hold of the message they should not be able to read the contents.
 
 ---
- 
+
 ### Modern cryptography
 
 Encryption has evolved drastically over the years. Not so long ago we were able to decrypt some ciphers with a pen and paper. Today we use very complicated algorithms and keys (see chapter 3.24) to encrypt information and our brain power is not sufficient enough to decrypt these new encryption methods. They can only be decrypted with the help of computers. Around 1990, the use of the Internet was getting bigger and things such as online transactions had to be encrypted.
