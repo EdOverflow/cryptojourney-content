@@ -298,10 +298,12 @@ A Purple machine consisted of two electronic typewriters connected to a plugboar
 The Japanese also used modified versions of Purple (Coral and Jade), these cipher machines did not use the "6-20 split." Unlike the German Enigma machine, which used rotors to permute letters, the Purple machine uses switches, each step of a switch permutes the letter. That is why Purple is referred as a "stepping switch machine". Unlike the Enigma machine, the Purple permutations were not made to be changed, that is another major weakness of the cipher machine. <sup>[3]</sup>
 
 # 5. Cold War
+
 The cold war was a state of military tension, that lasted from circa 1947 to 1991, the collapse of the Soviet Union. We still know very little about the encryption methods Russia and America used, because it is still classified and secret information.
+
 <details>
-  <summary>Why is this information still classified?
-        Solution: Some of the methods and machinery used in the Cold War could still be in use today.
+  <summary>Why is this information still classified?</summary>
+  **Solution:** Some of the methods and machinery used in the Cold War could still be in use today.
 </details>
 
 
