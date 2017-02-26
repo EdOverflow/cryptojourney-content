@@ -326,7 +326,7 @@ Bletchley Park was the home of the British Codebreakers during World War II, and
 
 In the early 1930s, the Japanese Navy purchased a German Enigma machine and improved the security of the machine. This new machine was codenamed "Red" by the U.S. government and was one of the most secure cryptographic machines in the world. The American Army Signal Intelligence Service (SIS) led by William Friedman managed to crack the machine in 1936, thus being able to read Japan's top secret communications. However in 1939, Japan's Foreign Ministry presented a newly improved cipher machine called "Purple". This machine was so secure, and so much better than its predecessor "Red", that even the U.S. thought it was unbreakable. Purple was used in World War II to encrypt classified Japanese information. Purple, unlike Enigma, was only used in Japanese embassies, and not on the battlefield, which means that enemies and even allies of Japan had no idea such a machine existed. This is also why the U.S. had a lot of trouble cracking the machine, since they had no idea how it looked like, they could not even start to try and break it. 
 
-The message, that broke off negotiations and then led to a war between America and Japan, was sent through Purple. 
+The message, that broke off negotiations and then led to a war between America and Japan, was sent through Purple.
 
 In 1929, the U.S. Army hired William F. Friedman, to lead the SIS and to crack the Purple machine. The best way to crack a cipher machine, was to create an exact replica of it. In 1940, the U.S. with the help of spies managed to create eight replica Purple machines, and they were finally able to decode many Purple encrypted messages. Decoded messages of the Purple cipher were codenamed "Magic" by the U.S. government, which is similar to "Ultra", the British Enigma decryptions. The U.S. Army was aware of Japan's most secret communications. Thanks to Magic, the U.S. Army was able to read Japanese plans and obtained vital information regarding the war in Europe. Spies around the world tried to tell the Japanese government, that Purple had been broken, but the Japanese were so confident in the security of their machines that they simply ignored all warnings.
 
@@ -337,6 +337,24 @@ A Purple machine consisted of two electronic typewriters connected to a plugboar
 The Japanese also used modified versions of Purple (Coral and Jade), these cipher machines did not use the "6-20 split." Unlike the German Enigma machine, which used rotors to permute letters, the Purple machine uses switches, each step of a switch permutes the letter. That is why Purple is referred as a "stepping switch machine". Unlike the Enigma machine, the Purple permutations were not made to be changed, that is another major weakness of the cipher machine. <sup>[3]</sup>
 
 # 5. Cold War
+
+The cold war was a state of military tension, that lasted from circa 1947 to 1991, the collapse of the Soviet Union. We still know very little about the encryption methods Russia and America used, because it is still classified and secret information.
+
+<details>
+  <summary>Why is this information still classified?</summary>
+  **Solution:** Some of the methods and machinery used in the Cold War could still be in use today.
+</details>
+
+
+### Fialka M-125
+The Fialka M-125 was a polyalphabetic rotor cipher machine used by the Russians during the Cold War. The name comes from the Russian for the “viola” flower.
+
+#### :radio: The Machine
+The Fialka had 10 rotors, with 30 contacts each. Every rotor had mechanical pins and turn-over points. Instead of a plugboard like some Enigma machines had, Fialka M-125 operators inserted a punch holed key card. This method was easier and more secure than a plugboard.
+
+~~~~
+Input -> Key card -> Rotors -> Reflector -> Rotors -> Output
+~~~~
 
 # 6. Modern-day Cryptography
 
