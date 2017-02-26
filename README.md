@@ -106,7 +106,7 @@ We welcome contributions from the public.
 
 ### Using the issue tracker 💡
 
-The issue tracker is the preferred channel for bug reports and features requests.
+The issue tracker is the preferred channel for bug reports and features requests. [![GitHub issues](https://img.shields.io/github/issues/EdOverflow/cryptojourney-content.svg?style=flat-square)](https://github.com/EdOverflow/cryptojourney-content/issues)
 
 ### Issues and labels 🏷
 
