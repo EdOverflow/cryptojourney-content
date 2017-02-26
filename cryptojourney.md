@@ -13,6 +13,41 @@ Written by @EdOverflow & @YouPunk.
 
 # 1. Foundations
 
+### The origin of cryptography
+
+Cryptography began thousands of years ago as a way of hiding, encrypting and protecting secrets. Early encryption methods are known as classical cryptography. They were not very sophisticated and were done with pen and paper or really basic mechanical aids. The first signs of cryptography were discovered in Egypt, where non-standard hieroglyphs carved into monuments have been found. The ancient Greeks are also known to have used very simple ciphers.
+
+---
+
+### Encryption and decryption
+
+Encryption is a process converts data into cipher text so that it can be safely stored or sent and then decrypted. Decryption turns the hidden and protected cipher text into readable plaintext. For instance, you can encrypt a message and then send it to a friend, who can decrypt the message and then read the contents. If an eavesdropper were to get hold of the message they should not be able to read the contents.
+
+---
+
+### Modern cryptography
+
+Encryption has evolved drastically over the years. Not so long ago we were able to decrypt some ciphers with a pen and paper. Today we use very complicated algorithms and keys (see chapter 3.24) to encrypt information and our brain power is not sufficient enough to decrypt these new encryption methods. They can only be decrypted with the help of computers. Around 1990, the use of the Internet was getting bigger and things such as online transactions had to be encrypted.
+
+---
+
+### How & where is cryptography used today?
+
+Every single time someone makes a phone call, sends a message, purchases something online or even at the store with your credit card, cryptography is used, in fact all of these everyday appliances would be very insecure without encryption.
+
+---
+
+### Terminology
+
+#### What is confidentiality?
+Confidentiality is the protection of personal information. If you talk with your friend about a sensitive matter, you want your conversation to be kept in confidence. Since 1990 and the use of the Internet, confidentiality has become more and more important.
+
+#### What is integrity?
+In order for the client to know whether they are using the desired (expected) information (e.g., website), there must be some mechanism in place to assure integrity.
+
+#### What is authentication?
+Authentication provides proof of the identity of the provided data. When contacting somebody you want to ensure they are who you believe they are.
+
 # 2. Classical Cryptography
 
 ### Egypt
@@ -133,7 +168,7 @@ WWI cryptography was not very sophisticated, cryptographers would mostly use sub
 
 ### The Zimmermann Telegram
 
-The Zimmermann Telegram was a note from Germany requesting Mexican allegiance. It was wirelessly intercepted and then decrypted by the British. The contents of the letter gave the USA another reason to join World War I.
+The Zimmermann Telegram was a note from Germany requesting Mexican allegiance. It was wirelessly intercepted and then decrypted by the British. The contents of the letter gave the U.S.A another reason to join World War I.
 
 On 17 January 1917, the team of British codebreakers from Room 40 at Admiralty received the intercepted letter. They soon realized the number 13042 was a variation of 13040, the title number of a German codebook. The codebreakers managed to recreate the codebook with all sorts of intercepted messages they had managed to get hold of. Using the book the signature 97556 decoded to Zimmermann, revealing that Arthur Zimmermann had sent the note to the German ambassador in Mexico.
 
@@ -224,9 +259,13 @@ The Polish mathematician and cryptologist Marian Rejewski was the first one to d
 The Bombe was a device used by the British cryptologists at Bletchley Park to decode German Enigma messages during WWII. The Bombe was designed in 1939 at the UK Government Code and Cypher School (GC&CS), a peace-time codebreaking agency, by Alan Turing and Gordon Welchman.
 In order to decrypt Enigma messages the Bombe had to find out the relative starting positions of the Enigma rotors, the cross-pluggings of the Enigma plugboard and the order of the rotors. The Bombe could not solve everything on its own, therefore some work had to be done by the codebreakers manually. For instance likely pieces of plain-text known as Cribs had to be found by the codebreakers and then inserted into the Bombe machine.
 
-#### Roll of Drums
+![Bombe Machine](img/bombe_front.jpg)
+
+#### :radio: The Machine
 
 The Bombe had to do one thing, it had to replicate the action of several Enigma machines. A standard British Bombe replicated the actions of 36 Enigma machines wired together, each with 3 drums connected to them to produce the same effect as the Enigma rotors. To recreate the Enigma rotors actions, each rotor drum of the Bombe had two sets of contact and 104 wire brushes that were arranged in four circles, 2 input and 2 output circles. The circles were arranged, so that the 2 output circles were connected with the current passing through the rotors, and the 2 input circles were connected with the current passing in the other direction.
+
+![Bombe](img/bombe_back.jpg)
 
 ---
 
@@ -285,15 +324,15 @@ Bletchley Park was the home of the British Codebreakers during World War II, and
 
 ### Purple
 
-In the early 1930s, the Japanese Navy purchased a German Enigma machine and improved the security of the machine. This new machine was codenamed "Red" by the US government and was one of the most secure cryptographic machines in the world. The American Army Signal Intelligence Service (SIS) led by William Friedman managed to crack the machine in 1936, thus being able to read Japan's top secret communications. However in 1939, Japan's Foreign Ministry presented a newly improved cipher machine called "Purple". This machine was so secure, and so much better than its predecessor "Red", that even the US thought it was unbreakable. Purple was used in World War II to encrypt classified Japanese information. Purple, unlike Enigma, was only used in Japanese embassies, and not on the battlefield, which means that enemies and even allies of Japan had no idea such a machine existed. This is also why the US had a lot of trouble cracking the machine, since they had no idea how it looked like, they could not even start to try and break it.
+In the early 1930s, the Japanese Navy purchased a German Enigma machine and improved the security of the machine. This new machine was codenamed "Red" by the U.S. government and was one of the most secure cryptographic machines in the world. The American Army Signal Intelligence Service (SIS) led by William Friedman managed to crack the machine in 1936, thus being able to read Japan's top secret communications. However in 1939, Japan's Foreign Ministry presented a newly improved cipher machine called "Purple". This machine was so secure, and so much better than its predecessor "Red", that even the U.S. thought it was unbreakable. Purple was used in World War II to encrypt classified Japanese information. Purple, unlike Enigma, was only used in Japanese embassies, and not on the battlefield, which means that enemies and even allies of Japan had no idea such a machine existed. This is also why the U.S. had a lot of trouble cracking the machine, since they had no idea how it looked like, they could not even start to try and break it. 
 
 The message, that broke off negotiations and then led to a war between America and Japan, was sent through Purple.
 
-In 1929, the Us Army hired William F. Friedman, to lead the SIS and to crack the Purple machine. The best way to crack a cipher machine, was to create an exact replica of it. In 1940, the US with the help of spies managed to create eight replica Purple machines, and they were finally able to decode many Purple encrypted messages. Decoded messages of the Purple cipher were codenamed "Magic" by the US government, which is similar to "Ultra", the British Enigma decryptions. The US Army was aware of Japan's most secret communications. Thanks to Magic, the US Army was able to read Japanese plans and obtained vital information regarding the war in Europe. Spies around the world tried to tell the Japanese government, that Purple had been broken, but the Japanese were so confident in the security of their machines that they simply ignored all warnings.
+In 1929, the U.S. Army hired William F. Friedman, to lead the SIS and to crack the Purple machine. The best way to crack a cipher machine, was to create an exact replica of it. In 1940, the U.S. with the help of spies managed to create eight replica Purple machines, and they were finally able to decode many Purple encrypted messages. Decoded messages of the Purple cipher were codenamed "Magic" by the U.S. government, which is similar to "Ultra", the British Enigma decryptions. The U.S. Army was aware of Japan's most secret communications. Thanks to Magic, the U.S. Army was able to read Japanese plans and obtained vital information regarding the war in Europe. Spies around the world tried to tell the Japanese government, that Purple had been broken, but the Japanese were so confident in the security of their machines that they simply ignored all warnings.
 
 #### :radio: The Machine
 
-A Purple machine consisted of two electronic typewriters connected to a plugboard and a box containing the cryptographic elements within a network of wiring. The plugboard had a plug for each letter in the Roman alphabet. Just like the German Enigma machine, Purple would not encipher any letter to itself, meaning that an `A` entered on the electronic typewriter would never be outputted as an `A` in the cipher text. When plaintext was typed on the first electronic typewriter, the input keyboard, it passed through a plugboard which separated the letters. The separated letters were then sent to two different groups. The first group consisted of 6 vowels (`AEIOUY`) and the second group of 20 consonants (`BCDFGHJKLMNPQRSTVWXZ`). This feature of Purple was called the "6-20 split." The first group was called the "sixes" and the second group was called the "twenties". After passing through the input plugboard the letter is denoted by `S` in the image below, if the letter is in the "sixes". The letter is then sent to the output plugboard. On the other hand, if the letter is in the "twenties" the letter passes through three permutations, `L`, `M`, and `R` in the image below, and is then sent to the output plugboard. As you can see below the "sixes" will be permuted to "sixes" and the "twenties" will be permuted to "twenties" which is the weakness of the Purple machine and was exploited by the US.
+A Purple machine consisted of two electronic typewriters connected to a plugboard and a box containing the cryptographic elements within a network of wiring. The plugboard had a plug for each letter in the Roman alphabet. JU.S.t like the German Enigma machine, Purple would not encipher any letter to itself, meaning that an `A` entered on the electronic typewriter would never be outputted as an `A` in the cipher text. When plaintext was typed on the first electronic typewriter, the input keyboard, it passed through a plugboard which separated the letters. The separated letters were then sent to two different groups. The first group consisted of 6 vowels (`AEIOUY`) and the second group of 20 consonants (`BCDFGHJKLMNPQRSTVWXZ`). This feature of Purple was called the "6-20 split." The first group was called the "sixes" and the second group was called the "twenties". After passing through the input plugboard the letter is denoted by `S` in the image below, if the letter is in the "sixes". The letter is then sent to the output plugboard. On the other hand, if the letter is in the "twenties" the letter passes through three permutations, `L`, `M`, and `R` in the image below, and is then sent to the output plugboard. As you can see below the "sixes" will be permuted to "sixes" and the "twenties" will be permuted to "twenties" which is the weakness of the Purple machine and was exploited by the United States. 
 
 The Japanese also used modified versions of Purple (Coral and Jade), these cipher machines did not use the "6-20 split." Unlike the German Enigma machine, which used rotors to permute letters, the Purple machine uses switches, each step of a switch permutes the letter. That is why Purple is referred as a "stepping switch machine". Unlike the Enigma machine, the Purple permutations were not made to be changed, that is another major weakness of the cipher machine. <sup>[3]</sup>
 
@@ -318,3 +357,146 @@ Input -> Key card -> Rotors -> Reflector -> Rotors -> Output
 ~~~~
 
 # 6. Modern-day Cryptography
+
+### The Key
+In cryptography, a key is used to encrypt or decrypt plaintext into cipher text and is usually a small piece of information. The security of an encrypted system relies on the secrecy of the key and keeping keys secret is the most difficult part in cryptography. If a third party is able to intercept the key, it could read the original message. Some encryption algorithms use the same key to encrypt and decrypt data, they are called **symmetric key algorithms**. More secure encryption algorithms use different keys to encrypt and decrypt data, a public key and a private key. These encryption algorithms are called **asymmetric key algorithms**. The length of such a key is always different. Some algorithms, for example cipher algorithms, use keys that are much shorter than the plaintext. Other systems, such as the One Time Pad (see later) use keys that are exactly as long as the plaintext.
+
+### Exclusive or (XOR)
+
+XOR or "Exclusive OR" is a logical operator that outputs `True` when the inputs differ and `False` when two inputs are the same. The XOR operation is denoted as `⊕` or `⊻`.
+
+When "adding" two binary strings together with XOR, for every bit that differs the output will be 1 and for every bit that corresponds the output will be 0. 
+
+|X	|Y	|X XOR Y|
+|---|---|-------|
+|0	|0	|0      |
+|0	|1	|1      |
+|1	|0	|1      |
+|1	|1	|0      |
+
+If you have a binary string of `00110` and you XOR it with the string `10101` the result will be `11001`.
+
+~~~
+00110 ⊕ 10101 = 11001
+~~~
+
+Let us look at an example where your message is the string `01010111 01101001` and the key is `11110011 11110011`:
+
+~~~
+   01010111 01101001 // Message
+⊕ 11110011 11110011 // Key
+----------------------
+=  10100100 10011010 // Encrypted Message
+~~~
+
+Now if you want to decrypt your encrypted string you would have to XOR it with the same key that you used to encrypt your message.
+
+~~~
+   10100100 10011010 // Encrypted Message
+⊕ 11110011 11110011 // Key
+----------------------
+=  01010111 01101001 // Message
+~~~
+
+#### :flashlight: Psst...
+
+_If you XOR the same string of bits the result is always 0._
+
+~~~
+1100110011 ⊕ 1100110011 = 0
+~~~
+
+---
+
+### Random & Pseudo-random
+
+The problem with generating random numbers with a computer, is that there is nothing random in a computer. The only thing computers really do is solve arithmetic operations. Functions in a computer take inputs and give outputs. This means that outputs are always somehow related to inputs, so if you want a random output, your input must be random. Computers are made to be deterministic, they will always do the same thing when an instruction is given, and their action is predictable, which is the complete opposite of randomness.
+
+We can create pseudo-random numbers, which are the closest we can get to creating a random number with a computer. There are several ways to create pseudo-random numbers, all in all the only procedure is to add so many "layers", until the result resembles a random number. You could have a function that takes the current date, adds the current time, divides by 6, adds 27 and divides by 4. This is a pseudo-random number generator (PRNG), even though this one is very basic and insecure. More advanced generators, take an input value that is outside the computer. For example, measuring noise or electric current will give you a number that is seemingly random. 
+
+One of the first pseudo-random number generators was invented by John von Neumann and is called the "Middle-square method". He created an algorithm that simulated the effect of randomness. He first took a truly random number a "seed", the seed could have come from the measurement of noise or the current time. After having calculated a seed, it was used as an input to a simple calculation. First multiply the seed by itself and output the middle of the result, this output was then used as the next seed. This process was repeated as many times as needed.
+
+~~~
+234 * 234 = 54756
+Output: 475
+Next seed: 475
+~~~
+
+The only difference between these pseudo-random generated numbers and truly random numbers, is that at some point, unlike random numbers, the process will be repeated and a predictable pattern will be generated with enough calculations.
+
+---
+
+### Prime Numbers
+
+Prime numbers are numbers divisible only by themselves and one.
+Prime numbers are very useful for modern-day cryptography, here is why:
+
+Start with two really big prime numbers, let us call them `P1` and `P2` and multiply them together to get a natural number called `C`. 
+
+~~~
+P1 * P2 = C
+61 * 89 = 5429
+~~~
+
+It is very easy for a computer to multiply two numbers together, but it is very troublesome if you start with `C` and try to work back to get `P1` and `P2`.
+
+~~~
+C    = P1 * P2
+5429 = ?  * ?
+~~~
+
+This number `C` is used to generate something called a public key, a code everyone can use to encrypt messages. Your bank, for example, would send you its public key to encrypt your data. `P1` and `P2` together are used to decrypt this code, so obviously they have to be kept secret and they are what are called a private key. Only your bank knows what `P1` and `P2` are, so they are the only ones that can access your credit card. If a thief does intercept the public key it would take them thousands of years to factor the numbers and find out `P1` and `P2` and eventually decrypt the code.
+
+#### :flashlight: Psst...
+
+_The largest known prime number `2^74207281-1` was discovered in January 2016, and consists of 22‘338‘618 decimal digits._
+
+---
+
+### One-Time Pads (OTP)
+
+The ultimate question in cryptography is and always has been: "How can I design an unbreakable cipher?" 
+
+The answer is complete randomness.
+
+Imagine you want to encrypt the word "HELP". In this case you can roll a 26 sided die 4 times to generate a list of shifts (e.g., 4, 23, 15, 9), because the word "HELP" has 4 letters. The recipient must be able to decrypt the message later so they must have the same list of shifts. 
+
+To encrypt the message you now use the list of shifts.
+
+~~~
+HELP --> LBAY
+~~~
+
+You then send this encrypted message to the recipient (LBAY) and they will be able to decrypt it. Any third party intercepting the message will have no chance to decrypt it, because of two very powerful properties. The shifts do not have any repetitive pattern, since the numbers are chosen randomly and the message has a uniform frequency distribution meaning that there is no frequency differential, every letter appears only once. Therefore it is impossible to break the encryption without the list of shifts. This is the strongest possible method of encryption, but it is also very time consuming to perform. Remember that each One-time Pad can only be used once — hence the name — and the receiver has to have the exact same One-time Pad as you, which is very difficult, because it is very hard to transmit the One-time Pad to the receiver, before encrypting a message, considering, that it has to be long enough to fulfil present and future communications with the receiver. Therefore, we could not use this method in everyday applications.
+
+### One-Time Pads and XOR
+
+You can create a One-Time Pad using XOR. If you were to XOR your plaintext with a random key of the same length, an attacker would have no chance to decrypt your message.
+
+Here is a graphical representation of a one-time pad using XOR.
+
+Your message: 
+
+![Your Message](img/message.jpg)
+
+Your key: 
+
+![Your Key](img/key.jpg)
+ 
+If you XOR them together you get the following encrypted message: 
+
+![Encrypted Message](img/encrypted-message.jpg)
+
+#### :flashlight: Psst...
+ 
+_If you encrypt another message with the same exact key, you would get another encrypted message, but when XOR'd with the first encrypted message the result would be both original messages. This is why it is very dangerous to reuse the same key._
+
+---
+
+### Cryptographic Protocols
+
+A protocol is a set of instructions that describes how different algorithms should be used. In cryptography a protocol is designed for secure communication and can be divided into the following categories:
+
+- Authentication protocols
+- Key transport protocols
+- Key-agreement protocols
