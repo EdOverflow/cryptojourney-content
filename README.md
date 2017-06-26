@@ -103,13 +103,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 ### Security 💻
 
-We take security very seriously at Cryptojourney. We welcome reports from security researchers to ensure Cryptojourney follows the latest recommendations in security.
-
-**We are not interested in social engineering reports.**
-
-We give credit to valid reports in our Hall of Fame.
-
-Please submit reports by opening issues on GitHub.
+We take security very seriously at Cryptojourney. We welcome reports from security researchers to ensure Cryptojourney follows the latest recommendations in security. We give credit to valid reports in our Hall of Fame. Please review our [security policy](SECURITY.md) before testing our platform.
 
 # Authors
 
