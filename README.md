@@ -12,10 +12,10 @@ Website: https://cryptojourney.com/
 
 - [Chapters](#chapters)
 - [Contributing](#contributing)
-    + [Using the issue tracker](#using-the-issue-tracker)
-    + [Issues and labels](#issues-and-labels)
-    + [Guidelines for bug reports](#guidelines-for-bug-reports)
-    + [Security](#security)
+    + [Using the issue tracker](#using-the-issue-tracker-)
+    + [Issues and labels](#issues-and-labels-)
+    + [Guidelines for bug reports](#guidelines-for-bug-reports-)
+    + [Security](#security-)
 - [Authors](#authors)
 - [License](#license)
 
