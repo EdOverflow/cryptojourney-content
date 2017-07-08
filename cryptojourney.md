@@ -121,7 +121,7 @@ Result: elliotjustatech
 It is believed that Julius Caesar used a key of E when encrypting messages. Try to decrypt this message Caesar sent to one of his generals.
 
 <details>
-  <summary>**M leh vexliv fi jmvwx mr e zmppeki xler wigsrh ex Vsqi.**</summary>
+  <summary>M leh vexliv fi jmvwx mr e zmppeki xler wigsrh ex Vsqi.</summary>
 	**Solution:** I had rather be first in a village than second at Rome.
 </details>
 
