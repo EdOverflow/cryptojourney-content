@@ -10,6 +10,7 @@ Written by @EdOverflow & @YouPunk.
 - [4. WWII](#4-wwii)
 - [5. Cold War](#5-cold-war)
 - [6. Modern-day Cryptography](#6-modern-day-cryptography)
+- [7. References](#7-references)
 
 # 1. Foundations
 
@@ -359,6 +360,7 @@ Input -> Key card -> Rotors -> Reflector -> Rotors -> Output
 # 6. Modern-day Cryptography
 
 ### The Key
+
 In cryptography, a key is used to encrypt or decrypt plain text into cipher text and is usually a small piece of information. The security of an encrypted system relies on the secrecy of the key and keeping keys secret is the most difficult part in cryptography. If a third party is able to intercept the key, it could read the original message. Some encryption algorithms use the same key to encrypt and decrypt data, they are called **symmetric key algorithms**. More secure encryption algorithms use different keys to encrypt and decrypt data, a public key and a private key. These encryption algorithms are called **asymmetric key algorithms**. The length of such a key is always different. Some algorithms, for example cipher algorithms, use keys that are much shorter than the plain text. Other systems, such as the One Time Pad (see later) use keys that are exactly as long as the plain text.
 
 ### Exclusive or (XOR)
@@ -500,3 +502,9 @@ A protocol is a set of instructions that describes how different algorithms shou
 - Authentication protocols
 - Key transport protocols
 - Key-agreement protocols
+
+# 7. References
+
+(1): https://books.google.ch/books?id=3S8rhOEmDIIC&lpg=PT127&vq=Khnumhotep&pg=PT127#v=onepage&q&f=false
+
+[1]: https://books.google.ch/books?id=3S8rhOEmDIIC&lpg=PT127&vq=Khnumhotep&pg=PT127#v=onepage&q&f=false
