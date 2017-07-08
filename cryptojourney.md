@@ -21,7 +21,7 @@ Cryptography began thousands of years ago as a way of hiding, encrypting and pro
 
 ### Encryption and decryption
 
-Encryption is a process converts data into cipher text so that it can be safely stored or sent and then decrypted. Decryption turns the hidden and protected cipher text into readable plaintext. For instance, you can encrypt a message and then send it to a friend, who can decrypt the message and then read the contents. If an eavesdropper were to get hold of the message they should not be able to read the contents.
+Encryption is a process converts data into cipher text so that it can be safely stored or sent and then decrypted. Decryption turns the hidden and protected cipher text into readable plain text. For instance, you can encrypt a message and then send it to a friend, who can decrypt the message and then read the contents. If an eavesdropper were to get hold of the message they should not be able to read the contents.
 
 ---
 
@@ -80,7 +80,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 KLMNOPQRSTUVWXYZABCDEFGHIJ
 ~~~~
 
-Caesar's method is a weak encryption method, since there are only 26 possibilities. The Enigma machine used in World War II by the German military had over 158 quintillion combinations! To crack the Caesar cipher we can also use a method called frequency analysis. This is where the number of times each letter occurs is analysed. The frequency of the most commonly occurring letters in the cipher text correspond to the most common in the plaintext (etaoin shrdlu).
+Caesar's method is a weak encryption method, since there are only 26 possibilities. The Enigma machine used in World War II by the German military had over 158 quintillion combinations! To crack the Caesar cipher we can also use a method called frequency analysis. This is where the number of times each letter occurs is analysed. The frequency of the most commonly occurring letters in the cipher text correspond to the most common in the plain text (etaoin shrdlu).
 
 #### :mortar_board: Example
 
@@ -109,10 +109,10 @@ After analysing the text we get:
 Now we compare the most common letters from the cipher text with the most common English letters: `etaoin shrdlu`
 
 ~~~~
-If cipher text `G` is plaintext `E`, then the shift is `2`.
+If cipher text `G` is plain text `E`, then the shift is `2`.
 Result: pwwtzeufdelepns
 
-Else if cipher text `G` is plaintext `T`, then the shift is `13`.
+Else if cipher text `G` is plain text `T`, then the shift is `13`.
 Result: elliotjustatech
 ~~~~
 
@@ -332,7 +332,7 @@ In 1929, the U.S. Army hired William F. Friedman, to lead the SIS and to crack t
 
 #### :radio: The Machine
 
-A Purple machine consisted of two electronic typewriters connected to a plugboard and a box containing the cryptographic elements within a network of wiring. The plugboard had a plug for each letter in the Roman alphabet. JU.S.t like the German Enigma machine, Purple would not encipher any letter to itself, meaning that an `A` entered on the electronic typewriter would never be outputted as an `A` in the cipher text. When plaintext was typed on the first electronic typewriter, the input keyboard, it passed through a plugboard which separated the letters. The separated letters were then sent to two different groups. The first group consisted of 6 vowels (`AEIOUY`) and the second group of 20 consonants (`BCDFGHJKLMNPQRSTVWXZ`). This feature of Purple was called the "6-20 split." The first group was called the "sixes" and the second group was called the "twenties". After passing through the input plugboard the letter is denoted by `S` in the image below, if the letter is in the "sixes". The letter is then sent to the output plugboard. On the other hand, if the letter is in the "twenties" the letter passes through three permutations, `L`, `M`, and `R` in the image below, and is then sent to the output plugboard. As you can see below the "sixes" will be permuted to "sixes" and the "twenties" will be permuted to "twenties" which is the weakness of the Purple machine and was exploited by the United States. 
+A Purple machine consisted of two electronic typewriters connected to a plugboard and a box containing the cryptographic elements within a network of wiring. The plugboard had a plug for each letter in the Roman alphabet. JU.S.t like the German Enigma machine, Purple would not encipher any letter to itself, meaning that an `A` entered on the electronic typewriter would never be outputted as an `A` in the cipher text. When plain text was typed on the first electronic typewriter, the input keyboard, it passed through a plugboard which separated the letters. The separated letters were then sent to two different groups. The first group consisted of 6 vowels (`AEIOUY`) and the second group of 20 consonants (`BCDFGHJKLMNPQRSTVWXZ`). This feature of Purple was called the "6-20 split." The first group was called the "sixes" and the second group was called the "twenties". After passing through the input plugboard the letter is denoted by `S` in the image below, if the letter is in the "sixes". The letter is then sent to the output plugboard. On the other hand, if the letter is in the "twenties" the letter passes through three permutations, `L`, `M`, and `R` in the image below, and is then sent to the output plugboard. As you can see below the "sixes" will be permuted to "sixes" and the "twenties" will be permuted to "twenties" which is the weakness of the Purple machine and was exploited by the United States. 
 
 The Japanese also used modified versions of Purple (Coral and Jade), these cipher machines did not use the "6-20 split." Unlike the German Enigma machine, which used rotors to permute letters, the Purple machine uses switches, each step of a switch permutes the letter. That is why Purple is referred as a "stepping switch machine". Unlike the Enigma machine, the Purple permutations were not made to be changed, that is another major weakness of the cipher machine. <sup>[3]</sup>
 
@@ -359,7 +359,7 @@ Input -> Key card -> Rotors -> Reflector -> Rotors -> Output
 # 6. Modern-day Cryptography
 
 ### The Key
-In cryptography, a key is used to encrypt or decrypt plaintext into cipher text and is usually a small piece of information. The security of an encrypted system relies on the secrecy of the key and keeping keys secret is the most difficult part in cryptography. If a third party is able to intercept the key, it could read the original message. Some encryption algorithms use the same key to encrypt and decrypt data, they are called **symmetric key algorithms**. More secure encryption algorithms use different keys to encrypt and decrypt data, a public key and a private key. These encryption algorithms are called **asymmetric key algorithms**. The length of such a key is always different. Some algorithms, for example cipher algorithms, use keys that are much shorter than the plaintext. Other systems, such as the One Time Pad (see later) use keys that are exactly as long as the plaintext.
+In cryptography, a key is used to encrypt or decrypt plain text into cipher text and is usually a small piece of information. The security of an encrypted system relies on the secrecy of the key and keeping keys secret is the most difficult part in cryptography. If a third party is able to intercept the key, it could read the original message. Some encryption algorithms use the same key to encrypt and decrypt data, they are called **symmetric key algorithms**. More secure encryption algorithms use different keys to encrypt and decrypt data, a public key and a private key. These encryption algorithms are called **asymmetric key algorithms**. The length of such a key is always different. Some algorithms, for example cipher algorithms, use keys that are much shorter than the plain text. Other systems, such as the One Time Pad (see later) use keys that are exactly as long as the plain text.
 
 ### Exclusive or (XOR)
 
@@ -471,7 +471,7 @@ You then send this encrypted message to the recipient (LBAY) and they will be ab
 
 ### One-Time Pads and XOR
 
-You can create a One-Time Pad using XOR. If you were to XOR your plaintext with a random key of the same length, an attacker would have no chance to decrypt your message.
+You can create a One-Time Pad using XOR. If you were to XOR your plain text with a random key of the same length, an attacker would have no chance to decrypt your message.
 
 Here is a graphical representation of a one-time pad using XOR.
 
