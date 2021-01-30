@@ -6,8 +6,6 @@ Learn the basics of cryptography throughout history.
 
 Cryptojourney is teacher, student and parent friendly. The content can be used in the classroom either on or offline, by students for reference and self-study, and by parents for home-schooling.
 
-Website: https://cryptojourney.com/
-
 # Table of contents
 
 - [Chapters](#chapters)
